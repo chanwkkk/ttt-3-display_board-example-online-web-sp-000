@@ -6,3 +6,7 @@ def display_board
   puts "-----------"
   puts "   |   |   "
 end
+
+def greeting(language, name="ruby")
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
+end
